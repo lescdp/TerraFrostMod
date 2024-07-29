@@ -1,6 +1,5 @@
 package net.xander.terrafrostmod.item;
 
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,7 +13,10 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> Malachite = ITEMS.register("malachite",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERRAFROST_TAB)));
+
+    public static final RegistryObject<Item> Raw_Baride = ITEMS.register("raw_baride",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERRAFROST_TAB)));
 
 
 

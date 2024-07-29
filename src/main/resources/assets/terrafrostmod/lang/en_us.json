@@ -1,3 +1,7 @@
 {
-  "item.terrafrostmod.malachite": "Malachite"
+  "item.terrafrostmod.malachite": "Malachite",
+  "item.terrafrostmod.raw_baride": "Raw Baride",
+  "block.terrafrostmod.baride_ore_block": "Baride Ore",
+
+  "itemGroup.terrafrosttab": "TerraFrost"
 }
