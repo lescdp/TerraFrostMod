@@ -22,12 +22,12 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TerraFrostMod.MOD_ID);
 
-    public static final RegistryObject<Block> Baride_Ore_Block = registerBlock("baride_ore_block",
+    public static final RegistryObject<Block> Bamide_Ore_Block = registerBlock("bamide_ore_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.TERRAFROST_TAB);
 
-    public static final RegistryObject<Block> Deepslate_Baride_Ore_Block = registerBlock("deepslate_baride_ore_block",
+    public static final RegistryObject<Block> Deepslate_Bamide_Ore_Block = registerBlock("deepslate_bamide_ore_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.TERRAFROST_TAB);

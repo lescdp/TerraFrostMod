@@ -15,7 +15,7 @@ public class ModItems {
     public static final RegistryObject<Item> Malachite = ITEMS.register("malachite",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERRAFROST_TAB)));
 
-    public static final RegistryObject<Item> Raw_Baride = ITEMS.register("raw_baride",
+    public static final RegistryObject<Item> Raw_Bamide = ITEMS.register("raw_bamide",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERRAFROST_TAB)));
 
 
