@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "terrafrostmod:raw_bamide"
+    }
+  },
+  "result": {
+    "item": "terrafrostmod:raw_bamide_block"
+  }
+}
