@@ -1,7 +1,13 @@
 {
   "item.terrafrostmod.malachite": "Malachite",
   "item.terrafrostmod.raw_bamide": "Raw Bamide",
+  "item.terrafrostmod.bamide_ingot": "Bamide Ingot",
+
+
   "block.terrafrostmod.bamide_ore_block": "Bamide Ore",
+  "block.terrafrostmod.raw_bamide_block": "Block of Raw Bamide",
+  "block.terrafrostmod.bamide_block": "Block of Bamide",
+
 
   "itemGroup.terrafrosttab": "TerraFrost"
 }

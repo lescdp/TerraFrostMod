@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terrafrostmod:bamide_block"
+    }
+  ],
+  "result": {
+    "item": "terrafrostmod:bamide_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "terrafrostmod:bamide_ore_block",
+    "terrafrostmod:raw_bamide_block",
+    "terrafrostmod:bamide_block"
+  ]
+}

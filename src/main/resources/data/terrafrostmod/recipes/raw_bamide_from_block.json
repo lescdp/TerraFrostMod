@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terrafrostmod:raw_bamide_block"
+    }
+  ],
+  "result": {
+    "item": "terrafrostmod:raw_bamide",
+    "count": 9
+  }
+}

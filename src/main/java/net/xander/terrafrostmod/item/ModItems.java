@@ -18,6 +18,9 @@ public class ModItems {
     public static final RegistryObject<Item> Raw_Bamide = ITEMS.register("raw_bamide",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERRAFROST_TAB)));
 
+    public static final RegistryObject<Item> Bamide_Ingot = ITEMS.register("bamide_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERRAFROST_TAB)));
+
 
 
     public static void register(IEventBus eventBus) {

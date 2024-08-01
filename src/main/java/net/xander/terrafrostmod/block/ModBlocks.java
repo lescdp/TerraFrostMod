@@ -27,10 +27,14 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.TERRAFROST_TAB);
 
-    public static final RegistryObject<Block> Deepslate_Bamide_Ore_Block = registerBlock("deepslate_bamide_ore_block",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModCreativeModeTab.TERRAFROST_TAB);
+    public static final RegistryObject<Block> Raw_Bamide_Block = registerBlock("raw_bamide_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAFROST_TAB);
+
+    public static final RegistryObject<Block> Bamide_Block = registerBlock("bamide_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAFROST_TAB);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
