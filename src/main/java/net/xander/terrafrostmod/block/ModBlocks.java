@@ -35,6 +35,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAFROST_TAB);
 
+    public static final RegistryObject<Block> Slush_Block = registerBlock("slush_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.SAND)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAFROST_TAB);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
