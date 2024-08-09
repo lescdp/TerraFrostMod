@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "terrafrostmod:block/slush_block"
+    "all": "terrafrostmod:block/tundra_soil_block"
   }
 }

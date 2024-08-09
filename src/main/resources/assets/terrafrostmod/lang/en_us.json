@@ -8,6 +8,10 @@
   "block.terrafrostmod.raw_bamide_block": "Block of Raw Bamide",
   "block.terrafrostmod.bamide_block": "Block of Bamide",
   "block.terrafrostmod.slush_block": "Slush",
+  "block.terrafrostmod.tundra_soil_block": "Tundra Soil",
+  "block.terrafrostmod.tundra_grass_yellow_block": "Yellow Tundra",
+  "block.terrafrostmod.tundra_grass_orange_block": "Orange Tundra",
+  "block.terrafrostmod.tundra_grass_yellow_block": "Red Tundra",
 
 
   "itemGroup.terrafrosttab": "TerraFrost"

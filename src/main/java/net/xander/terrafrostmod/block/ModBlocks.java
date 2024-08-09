@@ -39,6 +39,15 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.SAND)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAFROST_TAB);
 
+    public static final RegistryObject<Block> Tundra_Soil_Block = registerBlock("tundra_soil_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAFROST_TAB);
+
+    public static final RegistryObject<Block> Tundra_Grass_Yellow_Block = registerBlock("tundra_grass_yellow_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAFROST_TAB);
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

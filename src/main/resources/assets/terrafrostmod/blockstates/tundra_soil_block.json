@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "terrafrostmod:block/tundra_soil_block"}
+  }
+}
